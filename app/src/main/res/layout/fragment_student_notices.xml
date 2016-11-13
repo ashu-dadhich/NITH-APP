@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        style="@style/text_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Student Notices"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#000"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

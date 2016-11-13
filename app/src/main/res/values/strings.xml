@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">NIT Hamirpur</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="history">National Institute of Technology Hamirpur is one of the  thirty one NITs of the country,
+        established in 1986 as Regional Engineering College,
+        as a joint and cooperative enterprise of the Govt. of India and Govt. of Himachal Pradesh.
+        The goals of the institute as embodied in the logo are truly remarkable in their scope of vision.
+        The college provide Undergraduate, Postgraduate and Doctorate Education in Engineering, Archi Sciences and Humanities;
+        fostering the spirit of national integration among the students,
+        a close interaction with industry and a strong emphasis on research, both basic and applied.
+        It has been given the status of Deemed University.</string>
+    <string name="campus">The campus is situated at Anu in Hamirpur district of Himachal Pradesh and is 4
+        Kms from main bus stand of Hamirpur on Hamirpur – Toni Devi road. The city of Hamirpur is well connected
+        with the rest of the country by road. The nearest broad gauge rail head is at Una (Himachal Pradesh)
+        which is 80 Kms from Hamirpur. The campus has a picturesque surrounding facing snow clad Dhauladhar mountain ranges.
+        Lush green pine trees surround it. The campus is well laid with roads, electric installations, water supply,
+        underground drainage, etc. The place has healthy climate with moderate temperature ranging from
+        1oC to 38oC with an altitude of 900 meters.</string>
+    <string name="travel_info">The Institute is located on Hamirpur – Toni Devi - Awaha Devi
+        Road in the outskirts of Hamirpur town</string>
+    <string name="travel_rail">Nearest broad gauge train head is at Una (Himachal Pradesh ), at a distance of 80 Kms  from Hamirpur.
+        Una is well linked to all parts of India  and journey is of nine hours from Old Delhi Railway Station.
+        Taxi/Bus services are available from Hamirpur to Una. NIT Hamirpur is around 4 kilometers away from Hamirpur bus stand. 
+       </string>
+    <string name="travel_air">The nearest airport is at Dharamshala (Gaggal, district Kangra) which is about 75 Kms from Hamirpur.
+        Currently, Kingfisher Airlines operates from Delhi to Dharamshala. For more information,
+        please visit the website of Kingfisher Airlines.</string>
+    <string name="travel_road">The campus is situated at Anu in Hamirpur district of Himachal Pradesh and is 4 Kms from main bus stand of Hamirpur on Hamirpur – Toni Devi road.
+        The city of Hamirpur is well connected with the rest of the country by road.
+        Hamirpur is at a distance of about 480 Kms from Delhi.</string>
+    <string name="info_archi">Architecture is considered one of the essential disciplines necessary in city development and urbanization. In general it aims at building cities, roads, homes, hospitals, and other city landmarks as well as site and area planning. Designing in Architecture normally include all that add artistic, philosophical, and psychological dimensions to buildings.
+
+ The department of Architecture is the youngest Department at the National Institute of Technology, Hamirpur, and was established in 2000. The Department has been imparting Quality education to B. Arch and M. Arch. (Sustainable Architecture) students by reviewing its curricula from time to time, modernizing its laboratories with state of the art equipments and latest softwares. The classrooms are well equipped with all modern electronic audio-visual facilities.
+
+Presently, the department offers a five-year undergraduate course which includes semester training and two year M.Arch. (Sustainable Architecture) as per the norms of the Council of Architecture. The department has a very cognitive work environment where innovation is encouraged. Student � teacher interaction levels are very high, to the extent that each teacher knows the strengths of each of his students. The Institute also offers MHRD scholarship to GATE qualified candidates.
+    </string>
+    <string name="info_chemical">
+        Welcome to the department of Chemical engineering. The department of Chemical Engineering was established in the year 2013, with a mission to impart high quality engineering education and to mould the students to meet the ever growing demand of technical manpower in the area of Chemical Engineering. The department offers four years B. Tech programme in Chemical Engineering with a total intake of 60 students. The admission to the B. Tech. program is done only through the JEE (Joint Entrance Examination) main score. Department has a strong core curriculum complemented by electives in the important emerging areas of chemical engineering . The department comprises of ten different laboratories for the undergraduates catering to the needs of the curriculum. In addition, analytical instruments, computer facilities and research laboratories for the postgraduates and doctoral resources are under process. All the faculties are well dedicated to teaching and involve themselves in research in various fields of chemical engineering as well as in different interdisciplinary areas of engineering.
+    </string>
+    <string name="info_chemistry">
+        The Chemistry department was a part of the formerly department of applied sciences and humanities that has existed as a catering department for all other engineering departments right from the beginning. Chemistry has grown out as an independent department very recently (01.08.2009). The department is on the process of starting courses on its own and an integrated M.Sc. (Chemistry) programme is soon gong to be launched. Teaching engineering chemistry to the first year engineering undergraduate students is the main academic activity of the department at the moment. Other post-graduate courses are also on the anvil. The department also offers open elective courses for undergraduate and postgraduate engineering students.
+
+    </string>
+    <string name="info_civil">
+        National Institute of Technology, Hamirpur was established in the year 1986 and the Civil Engineering Department is part of the institute since its inception. Civil Engineering is considered to be the most versatile branch among all the engineering branches. It is the branch with lot of diversity right from structural to transportation engineering, environmental to hydrology to hydraulics engineering, geology to geo-technology to earthquake engineering; Civil Engineering can be considered as a single largest branch among all the engineering branches. Being one of the primary Engineering Departments of the Institute, the Department of Civil Engineering offers B. Tech., M. Tech. and Ph.D. degrees programmes, accredited by National Board of Accreditation for five years since January 2008 and has been imparting quality education to its students.
+    </string>
+    <string name="info_cse">
+        Located in Hamirpur district of Himachal Pradesh, NIT Hamirpur enjoys a really scenic environment and pleasant weather. Established in the year 1986, as REC Hamirpur, NIT Hamirpur has been declared as the Institute of National Importance under the Act of Parliament, 2007. Established in 1989 as the Department of Computer Science and Engineering, we have an excellent and rich history and an outstanding record of contributions to the profession and community
+    </string>
+    <string name="info_ece">Established in the year 1988, the Electronics and Communication Engineering (EandCE) Department NIT Hamirpur HP, has built an international reputation for excellence in teaching, research and service. Electronics engineers are changing the world to a comfortable global home. The information and technology revolution has been built on the advances of Electronics. The EandCE Department takes pride in its high national rankings and the international recognition its faculty has received from their peers.EandCED is making exhilarating progress in areas ranging from microelectronics, mobile communications to VLSI Design Automation. In labs and classrooms, students draw on the expertise and knowledge of our able faculty, integrating practical, hands-on research experience with challenging and interesting course-work. The team approach is very warm in the Department of EandCE. A palpable excitement surrounds the Department of EandCE, an enthusiasm pervades every classroom and lab, invigorating our students and spurring on our faculty to fresh innovations. In an age when electronics play a major role in daily life and the promise of nanotechnology is coming to fruition, it truly is a great time to be a part of EandC engineering.
+
+The pollution free aura of the state surrounded by snow-clad Dauladhar ranges, technological strength and increasing national prominence has presented us with unmatched opportunities for research, education, and service to society. We have grown into a most sought after departments in NIT Hamirpur, adding more faculty and branching into new projects and research areas. Our department maintains close affiliations and has a joint project with CSED. At B.Tech Level, 15th batch of EandCE passed out in 2006. M.Tech. in VLSI Design Automation and Techniques has started from 2006.
+    </string>
+    <string name="info_eee">
+        Electrical Engineering Department, established in the year 1986, is one of the oldest departments of National Institute of Technology, Hamirpur. The department has been imparting quality education at undergraduate and post graduate level. The faculty members has been active in teaching and research activities. The course curriculum is being revised from time to time so as to keep abreast with the latest developments and emerging technologies. Various departmental laboratories have been strengthened and modernized by procuring state of art equipments. The department is equipped with the latest experimental and computational facilities for taking up RandD and consultancy activities in different areas of electrical engineering.
+    </string>
+    <string name="info_hmm">
+        The department of Humanities and Social Sciences came in to existence in 1986. The department comprises of various disciplines, namely Communication Skills, Managerial Economics, Professional Ethics and Human values, Principles of Management, Dynamics of Behavioral Sciences in Industries, Human Resource Management, Marketing Management, Engineering Economics, and Financial Management. The department has developed infrastructure of high quality to fulfill the needs of engineering streams. The faculty members are constantly engaged in research and development activities and have contributed a number of research papers in the various journals and conferences of national and international repute. The department also offers Ph.D
+    </string>
+    <string name="info_man">
+        Department of Management Studies (DOMS) of National Institute of Technology Hamirpur(NITH) is offering a redefined industry oriented MBA Program in contrast to traditional business education.
+    </string>
+    <string name="info_maths">
+        The department of Mathematics came in to existence in 1st Aug., 2009. Previously, this department was a part of the formerly department of Applied Sciences and Humanities, which came in to existence in 1986. The department has 05 regular faculty members. We have developed infrastructure of high quality to fulfill the needs of various engineering main streams. The Department has a vibrant research atmosphere backed up by excellent infrastructural facilities. We have a modern mathematical computational laboratory. The department admits students under Ph.D. programme. M. Sc. in Mathematics, Integrated programme in M.Sc. (Mathematics) are soon going to be launched. MCA with in collaboration with CSE department is also going to be start soon. The department also offers open elective courses for undergraduate and postgraduate engineering students.  This department has been contributing a lot for the overall development of the institution since its inception. Specially, this department has done extremely well in research despite many constraints.
+    </string>
+    <string name="info_mech">
+        The Mechanical Engineering Department came into its existence right from the inception of the then Regional Engineering College Hamirpur (now National Institute of Technology Hamirpur) in the year 1986 and served as catering department to other disciplines
+    </string>
+    <string name="info_pysics">
+        Department of physics
+    </string>
+    <string name="title_activity_library">Central Library</string>
+    <string name="title_activity_tpo">TPO</string>
+</resources>

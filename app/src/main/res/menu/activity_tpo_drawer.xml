@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/star_big_off"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_company"
+            android:icon="@android:drawable/star_big_off"
+            android:title="Companies Visiting" />
+        <item
+            android:id="@+id/nav_touch"
+            android:icon="@android:drawable/star_big_off"
+            android:title="Get in Touch" />
+        <item
+            android:id="@+id/nav_pr"
+            android:icon="@android:drawable/star_big_off"
+            android:title="Placement Record" />
+        <item
+            android:id="@+id/nav_team"
+            android:icon="@android:drawable/star_big_off"
+            android:title="TPO Team" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@android:drawable/star_big_off"
+            android:title="Contact Us" />
+    </group>
+
+</menu>

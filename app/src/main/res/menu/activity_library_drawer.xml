@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_lib_ask_lib"
+            android:icon="@android:drawable/star_big_off"
+            android:title="Library Home" />
+        <item
+            android:id="@+id/nav_lib_eresouces"
+            android:icon="@android:drawable/star_big_off"
+            android:title="E-Resources" />
+        <item
+            android:id="@+id/nav_lib_newarrivals"
+            android:icon="@android:drawable/star_big_off"
+            android:title="New Arrivals" />
+        <item
+            android:id="@+id/nav_lib_about"
+            android:icon="@android:drawable/star_big_off"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_lib_notices"
+            android:icon="@android:drawable/star_big_off"
+            android:title="Notices" />
+
+        <item
+            android:id="@+id/nav_lib_faq"
+            android:icon="@android:drawable/star_big_off"
+            android:title="FAQ's" />
+        <item
+            android:id="@+id/nav_lib_student"
+            android:icon="@android:drawable/star_big_off"
+            android:title="Get Notification" />
+        <item
+            android:id="@+id/nav_lib_initiatives"
+            android:icon="@android:drawable/star_big_off"
+            android:title="Library Initiatives" />
+
+
+    </group>
+
+
+</menu>

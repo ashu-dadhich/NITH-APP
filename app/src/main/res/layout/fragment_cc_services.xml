@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        style="@style/text_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Services"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The computer centre is providing following kind of services throughout the campus:"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@android:drawable/radiobutton_on_background"
+                android:padding="10dp"
+                android:text="Computer Centre provides all kind of computing facilities to the undergraduate and postgraduate students in lab, project and research work."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@android:drawable/radiobutton_on_background"
+                android:padding="10dp"
+                android:text="Internet and E-Mail services throughout the campus for Academic and Research work."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@android:drawable/radiobutton_on_background"
+                android:padding="10dp"
+                android:text="Extension of E-Mail / Internet services to various sections and building is going on. The various departments of the institute are connected through Structured Single Mode Fiber Optic Network to share computational resources."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@android:drawable/radiobutton_on_background"
+                android:padding="10dp"
+                android:text="Maintenance and Troubleshooting of Hardware (PCs, Workstations and Servers), Software and Peripherals like Printers, Scanners and CD-Writers etc. at institute level."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@android:drawable/radiobutton_on_background"
+                android:padding="10dp"
+                android:text="Providing technical support and maintaining data network for all the users in the campus (round about 1500 voice and data nodes)."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@android:drawable/radiobutton_on_background"
+                android:padding="10dp"
+                android:text="Network and System Administration, E-mail, Web and Proxy Server, Web design, Internet, VSAT and Leased Line operation. Maintenance and configuration of various networking components e.g. Routers, Hub, Switches (edge, distribution and core switches)."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@android:drawable/radiobutton_on_background"
+                android:padding="10dp"
+                android:text="Website designing, development and deployment."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@android:drawable/radiobutton_on_background"
+                android:padding="10dp"
+                android:text="Software development to meet the requirements of various departments viz. accounts, examination, library etc."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@android:drawable/radiobutton_on_background"
+                android:padding="10dp"
+                android:text="To impart training to the students and staff."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@android:drawable/radiobutton_on_background"
+                android:padding="10dp"
+                android:text="To conduct practical lab classes of various academic departments."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@android:drawable/radiobutton_on_background"
+                android:padding="10dp"
+                android:text="Office automation activities."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@android:drawable/radiobutton_on_background"
+                android:padding="10dp"
+                android:text="To impart short-term courses in emerging fields."
+                android:textColor="#000" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
