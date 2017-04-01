@@ -54,7 +54,8 @@ public class Frag_lib_notices extends Fragment {
                                     int position, long id) {
                 //Toast.makeText(getActivity(),"HI"+position,Toast.LENGTH_SHORT).show();
                 Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse(pdf_url.get(position)));
+                i.setData(Uri.parse(pdf_url.get(position).toString().trim()));
+//                Toast.makeText(getActivity(), ""+Uri.parse(pdf_url.get(position)), Toast.LENGTH_LONG).show();
                 startActivity(i);
 
             }

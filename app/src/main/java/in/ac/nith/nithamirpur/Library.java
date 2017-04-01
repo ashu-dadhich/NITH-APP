@@ -3,6 +3,7 @@ package in.ac.nith.nithamirpur;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -174,8 +175,6 @@ public class Library extends AppCompatActivity
             fragment = new Frag_lib_home();
         } else if (id == R.id.nav_lib_faq) {
             fragment = new Frag_lib_faq();
-        } else if (id == R.id.nav_lib_student) {
-            fragment = new Frag_lib_stu_reg();
         } else if (id == R.id.nav_lib_initiatives) {
             fragment = new Frag_initiatives();
         } else if (id == R.id.nav_lib_newarrivals) {
@@ -256,13 +255,16 @@ public class Library extends AppCompatActivity
     }
 
     public void web(View v) {
-        String url = "http://www.library.nith.ac.in";
+        String url = "http://library.nith.ac.in";
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
         startActivity(i);
     }
 
     public void phone(View view) {
+//        final ProgressDialog pDialog = new ProgressDialog(Library.this);
+//        pDialog.setMessage("Loading...Contact");
+//        pDialog.show();
 
         RequestQueue queue = Volley.newRequestQueue(Library.this);
 
@@ -280,7 +282,7 @@ public class Library extends AppCompatActivity
                             e.printStackTrace();
                         }
                         //Toast.makeText(MainActivity.this, response.toString(), Toast.LENGTH_SHORT).show();
-
+//                        pDialog.hide();
                     }
                 }, new Response.ErrorListener() {
             @Override
@@ -291,10 +293,12 @@ public class Library extends AppCompatActivity
             }
         });
         queue.add(req);
-        String temp = "tel:+91" + numberString;
-        Intent intent = new Intent(Intent.ACTION_DIAL);
-        intent.setData(Uri.parse(temp));
-        startActivity(intent);
+        String temp = "tel:+91"+numberString;
+        if(temp.length()==17){
+            Intent intent = new Intent(Intent.ACTION_DIAL);
+            intent.setData(Uri.parse(temp));
+            startActivity(intent);
+        }
     }
 
     private boolean appInstalledOrNot(String uri) {

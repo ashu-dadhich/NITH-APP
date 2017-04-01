@@ -54,6 +54,7 @@ public class Frag_tpo_pr extends Fragment {
                 //Toast.makeText(getActivity(),"HI"+position,Toast.LENGTH_SHORT).show();
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(pdf_url.get(position)));
+         //       Toast.makeText(getActivity(), ""+pdf_url.get(position), Toast.LENGTH_LONG).show();
                 startActivity(i);
 
             }

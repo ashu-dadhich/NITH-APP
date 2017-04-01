@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="8dp">
+    android:padding="8dp"
+    android:background="#eaecef">
 
 
     <LinearLayout
@@ -41,47 +42,48 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_gravity="center">
 
         <ImageView
             android:id="@+id/i1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:padding="3dp"
             android:src="@drawable/grey" />
 
         <ImageView
             android:id="@+id/i2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:padding="3dp"
             android:src="@drawable/grey" />
 
         <ImageView
             android:id="@+id/i3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:padding="3dp"
             android:src="@drawable/grey" />
 
         <ImageView
             android:id="@+id/i4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:padding="3dp"
             android:src="@drawable/grey" />
 
         <ImageView
             android:id="@+id/i5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:padding="3dp"
             android:src="@drawable/grey" />
 
         <ImageView
             android:id="@+id/i6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:padding="3dp"
             android:src="@drawable/grey" />
 

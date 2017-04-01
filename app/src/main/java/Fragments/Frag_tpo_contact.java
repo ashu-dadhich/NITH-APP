@@ -2,6 +2,7 @@ package Fragments;
 
 import android.app.Fragment;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.util.Log;
@@ -21,6 +22,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import in.ac.nith.nithamirpur.MainActivity;
 import in.ac.nith.nithamirpur.R;
 
 /**
@@ -72,4 +74,12 @@ public class Frag_tpo_contact extends Fragment {
         queue.add(req);
         return v;
     }
+
+    @Override
+    public void onDetach() {
+        Intent intent=new Intent(getActivity(), MainActivity.class);
+        startActivity(intent);
+        super.onDetach();
+    }
+
 }

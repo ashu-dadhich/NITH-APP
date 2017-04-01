@@ -22,15 +22,10 @@
             android:id="@+id/nav_lib_notices"
             android:icon="@android:drawable/star_big_off"
             android:title="Notices" />
-
         <item
             android:id="@+id/nav_lib_faq"
             android:icon="@android:drawable/star_big_off"
             android:title="FAQ's" />
-        <item
-            android:id="@+id/nav_lib_student"
-            android:icon="@android:drawable/star_big_off"
-            android:title="Get Notification" />
         <item
             android:id="@+id/nav_lib_initiatives"
             android:icon="@android:drawable/star_big_off"

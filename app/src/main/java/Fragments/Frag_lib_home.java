@@ -2,6 +2,7 @@ package Fragments;
 
 import android.app.Fragment;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.util.Log;
@@ -27,6 +28,7 @@ import org.json.JSONObject;
 import java.util.Random;
 
 import CustomItems.OnSwipeTouchListener;
+import in.ac.nith.nithamirpur.MainActivity;
 import in.ac.nith.nithamirpur.R;
 
 /**
@@ -157,7 +159,6 @@ public class Frag_lib_home extends Fragment {
 
         });
 
-        //String url="http://api.androidhive.info/volley/person_array.json";
         final ProgressDialog pDialog = new ProgressDialog(getActivity());
         pDialog.setMessage("Loading...");
         pDialog.show();
@@ -243,4 +244,11 @@ public class Frag_lib_home extends Fragment {
 //        }
 //        return false;
 //    }
+
+    @Override
+    public void onDetach() {
+        Intent intent=new Intent(getActivity(), MainActivity.class);
+        startActivity(intent);
+        super.onDetach();
+    }
 }
