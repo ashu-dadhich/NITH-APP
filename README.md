@@ -1,5 +1,5 @@
 # NITH-APP
-The official App of NIT Hamirpur
+The official App of NIT Hamirpur, HP
 
 <img src="https://github.com/top-gun007/NITH-APP/blob/master/Screenshot_20170401-144411.png" width="360" height= "640">
 
